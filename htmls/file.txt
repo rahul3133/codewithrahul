@@ -1,0 +1,3 @@
+Clint ID = 187751863034-p04ef15qdgrmiq2evtvgotpopda2ev33.apps.googleusercontent.com
+
+Clint Secret ID = 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

@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>&lt;/&gt;Apply for Work | CodeWithRahulGoswami</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,700;0,800;1,600;1,700;1,800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="..//css/style.css">
+    <link rel="stylesheet" href="..//css/responsiveness.css">
+    <link rel="icon" href="..//Images/WebPage Owner Image.jpg">
+    <script src="https://unpkg.com/typed.js@2.0.15/dist/typed.umd.js"></script>
+</head>
+
+<body>
+
+    <header class="Heading-Name">
+        <div class="cource-links-Responsive">
+            <span class="cource-Links-ReponsiveChild">back <i class="fa-solid fa-arrow-left"></i></span>
+        </div>
+        <div class="loader_bg">
+            <div class="loader"></div>
+        </div>
+        <div class="loading-progress-bar"></div>
+        <section class="navbar-container">
+            <div class="navbar-subMain">
+                <div class="navbar-heading">
+                    <h3><a href="index.html">CodeWithRahul</a></h3>
+                    <span class="ResponsiveMoreLinks">More <i class="fa-sharp fa-solid fa-angle-down"></i></span>
+                </div>
+                <div class="mainLinks">
+                    <nav class="Navition">
+                        <ul class="NavtionLinks">
+                            <li class="header-Links"><a href="index.html">Home</a></li>
+                            <li class="header-Links"><a href="cources.html">Cources</a></li>
+                            <li class="header-Links header-Work-Link"><a href="Tutorials.html">Tutorials</a></li>
+                            <li class="header-Links header-Links-2 Tutorials"><span style="display:flex;">Tutorials<i
+                                        class="totialBtn fa-sharp fa-solid fa-angle-down"></i></span></li>
+                            <li class="header-Links"><a href="blog.html">Projects</a></li>
+                            <li class="header-Links"><a href="notes.html">Notes</a></li>
+                            <li class="header-Links"><a href="contact.html">Contact</a></li>
+                            <li class="header-Links"><a href="workWithUs.html">Work With Us</a></li>
+                        </ul>
+                        <div class="dayNightModeButton">
+                            <button class="changeModeBtn" id="DaynightModeBtn"><i class="fa-solid fa-moon"></i></button>
+                        </div>
+                        <div class="loginBtn">
+                            <a href="login.html"><button type="button" class="btn btn-primary">Login</button></a>
+                        </div>
+                        <div class="signupBtn">
+                            <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal" data-bs-whatever="@mdo">Sign Up</button>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </section>
+        <section class="cource-navbar-container">
+            <div class="homeIcons">
+                <button><a href="index.html"><i class="fa-solid fa-house-chimney"></i></a></button>
+            </div>
+            <div class="courcesLinksMain">
+                <ul class="courcesLinks">
+                    <li class="Links"><a href="html-home.html">HTML</a></li>
+                    <li class="Links"><a href="CSS-home.html">CSS</a></li>
+                    <li class="Links"><a href="">JAVASCRIPT</a></li>
+                    <li class="Links"><a href="">CC++</a></li>
+                    <li class="Links"><a href="">PHP</a></li>
+                    <li class="Links"><a href="">PYTHON</a></li>
+                    <li class="Links"><a href="">REACT JS</a></li>
+                    <li style="margin-right:0;" class="Links"><a href="">DSA</a></li>
+                </ul>
+            </div>
+            <div class="SearchInputsBox">
+                <div class="row">
+                    <form>
+                        <input type="search" name="searchCources" id="input-box" placeholder="Search..." required
+                            autocomplete="off">
+                        <button class="searchBtn" id="InputSearcht"><i
+                                class="fa-solid fa-magnifying-glass"></i></button>
+                    </form>
+                </div>
+                <div class="result-box">
+                </div>
+            </div>
+        </section>
+    </header>
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <button type="button" class="btn-close close-signup"
+                    style="position:absolute;top:0;right:0px;margin:10px;color:#ddd;" data-bs-dismiss="modal"
+                    aria-label="Close"></button>
+                <div class="container center" style="display:flex;width:100%;justify-content: center;margin-top:10px;">
+                    <img width="100" style="border-radius:50px;" src="..//Images/WebPage Owner Image.jpg" alt="">
+                </div>
+                <div>
+                    <h4 class="text-center mt-3">&lt;/&gt;Code With Rahul</h4>
+                    <h5 class="text-center" id="exampleModalLabel">Create an account</h5>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="mb-3">
+                            <input type="text" name="username" class="form-control" id="recipient-name1"
+                                placeholder="Username">
+                        </div>
+                        <div class="mb-3">
+                            <input type="password" name="password" class="form-control" id="recipient-name2"
+                                placeholder="Password">
+                        </div>
+                        <div class="mb-3">
+                            <input type="password" name="confirm_password" class="form-control" id="recipient-name3"
+                                placeholder="Confirm Password">
+                        </div>
+                        <button type="submit" class="btn btn-primary createaccoutnprimary">Create an account</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="form-section">
+        <div class="form-sub-container">
+            <div class="main-flex-container">
+                <div class="from-RightSide">
+                    <div class="from-heading">
+                        <p>India Only</p>
+                        <h2>Apply Now!</h2>
+                    </div>
+                    <form action="https://formspree.io/f/myyqranr" method="POST">
+                        <div class="mb-3">
+                            <label for="exampleInputText1" class="form-label">Full Name</label>
+                            <input type="text" name="User-full-Name" class="form-control" id="fullName"
+                                autocomplete="off" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Email</label>
+                            <input type="email" name="User-email" class="form-control" id="email" autocomplete="off"
+                                required>
+                            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputPassword1" class="from-label">Phone number</label>
+                            <input type="tel" name="user-PhoneNumber" class="form-control" id="phone_No"
+                                autocomplete="off" required minlength="10" maxlength="10" pattern="[0-9]+"
+                                title="Please enter only numeric values">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputWeb1" class="from-label">Web URL</label>
+                            <input type="text" name="Web-url" class="form-control" id="urlLink" autocomplete="off" title="Don't write http:// before web link" title="">
+                        </div>
+                        <div class="mb-3 form-check radio-CheckBox">
+                            <div class="skill-main">
+                                <p>Skills</p>
+                            </div>
+                            <div class="input-col-1-main-flex">
+                                <div class="input-row-1">
+                                    <div class="input-col-1">
+                                        <input type="checkbox" class="form-check-input" id="exampleCheck1" title="Your Skill">
+                                        <label class="form-check-label" for="exampleCheck1">Subtitle</label>
+                                    </div>
+                                    <div class="input-col-1">
+                                        <input type="checkbox" class="form-check-input" id="exampleCheck1" title="Your Skill">
+                                        <label class="form-check-label" name="Python Dev"
+                                            for="exampleCheck1">HTML</label>
+                                    </div>
+                                    <div class="input-col-1">
+                                        <input type="checkbox" class="form-check-input" id="exampleCheck1" title="Your Skill">
+                                        <label class="form-check-label" name="Content" for="exampleCheck1">Photo
+                                            Editing</label>
+                                    </div>
+                                    <div class="input-col-1">
+                                        <input type="checkbox" name="JavaScript" class="form-check-input"
+                                            id="exampleCheck1" title="Your Skill" required>
+                                        <label class="form-check-label" for="exampleCheck1">JavaScript</label>
+                                    </div>
+                                    <div class="input-col-1">
+                                        <input type="checkbox" class="form-check-input" id="exampleCheck1" title="Your Skill">
+                                        <label class="form-check-label" name="MERN Dev"
+                                            for="exampleCheck1">FrameWorks</label>
+                                    </div>
+                                </div>
+                                <div class="input-row-1">
+                                    <div class="input-col-1">
+                                        <input type="checkbox" class="form-check-input" id="exampleCheck1" title="Your Skill">
+                                        <label class="form-check-label" name="Writer" for="exampleCheck1">Writer</label>
+                                    </div>
+                                    <div class="input-col-1">
+                                        <input type="checkbox" class="form-check-input" id="exampleCheck1" title="Your Skill">
+                                        <label class="form-check-label" name="Dev Master" for="exampleCheck1">Dev
+                                            CC++</label>
+                                    </div>
+                                    <div class="input-col-1">
+                                        <input type="checkbox" class="form-check-input" id="exampleCheck1" title="Your Skill">
+                                        <label class="form-check-label" name="Video Editor" for="exampleCheck1">Video
+                                            Editor</label>
+                                    </div>
+                                    <div class="input-col-1">
+                                        <input type="checkbox" class="form-check-input" id="exampleCheck1" title="Your Skill">
+                                        <label class="form-check-label" name="Java Dev" for="exampleCheck1">React
+                                            Js</label>
+                                    </div>
+                                    <div class="input-col-1">
+                                        <input type="checkbox" class="form-check-input" id="exampleCheck1" title="Your Skill">
+                                        <label class="form-check-label" for="exampleCheck1">PHP</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="WorUs-submit-btn">
+                            </div>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                </div>
+                <div class="from-details-leftSection">
+                    <div class="form-details">
+                        <h2>We are hiring!</h2>
+                        <p>We are looking for freelance Developers, Subtitle writers, Content writers and Video editors.
+                            If you think you are fit for the role. Submit the form. Make sure you have a valid email so
+                            we can contact you back in case your application gets selected. Cheers!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="footer-container">
+        <div class="footer-subContainer">
+            <div class="footer-box">
+                <div class="footer-Identity">
+                    <div class="footer-identityPart1">
+                        <img src="..//Images/WebPage Owner Image.jpg" alt="Owner of this WebPage Image">
+                        <h4>CodeWithRahul</h4>
+                    </div>
+                    <div class="footer-identityPart2">
+                        <div class="copyright">
+                            Copyright &copy; 2023 CodeWithRahul.com
+                        </div>
+                    </div>
+                </div>
+                <div class="footerMediaIcons">
+                    <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://github.com/rahul3133"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.youtube.com/@user-ts6wj1nt6w/featured"><i class="fa-brands fa-youtube"></i></a>
+                    <a
+                        href="https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwiwiI2uhe__AhUI0ncKHc7uAGIYABAAGgJlZg&ei=r-mgZI2zEur04-EPzfexmAo&ohost=www.google.com&cid=CAESauD2FiAJmre0yW-k4h6Xbp9QZheTBcoQxwXbcjv8eAihGdbmjsacHBfG1zFUh8yyWIr6kq-5OLsLSQiCH7-WS4A9XqqWfiDmffmubwAQWBYv-1wmLhAe9sjQvxA_5rJdLd-XN3kNYgiloSo&sig=AOD64_2LiR2oIRjEvP9jVUI0QTQwst9UNw&q&sqi=2&adurl&ved=2ahUKEwjNxvythe__AhVq-jgGHc17DKMQ0Qx6BAgJEAE"><i
+                            class="fa-brands fa-facebook"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="..//JavaScripts/script.js"></script>
+</body>
+
+</html>

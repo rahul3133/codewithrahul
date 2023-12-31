@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>&lt;/&gt;CodeWithRahulGoswami | Projects </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,700;0,800;1,600;1,700;1,800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="..//css/style.css">
+    <link rel="stylesheet" href="..//css/responsiveness.css">
+    <link rel="icon" href="..//Images/WebPage Owner Image.jpg">
+    <script src="https://unpkg.com/typed.js@2.0.15/dist/typed.umd.js"></script>
+</head>
+
+<body>
+
+    <header class="Heading-Name">
+        <div class="cource-links-Responsive">
+            <span class="cource-Links-ReponsiveChild">back <i class="fa-solid fa-arrow-left"></i></span>
+        </div>
+        <div class="loader_bg">
+            <div class="loader"></div>
+        </div>
+        <div class="loading-progress-bar"></div>
+        <section class="navbar-container">
+            <div class="navbar-subMain">
+                <div class="navbar-heading">
+                    <h3><a href="index.html">CodeWithRahul</a></h3>
+                    <span class="ResponsiveMoreLinks">More <i class="fa-sharp fa-solid fa-angle-down"></i></span>
+                </div>
+                <div class="mainLinks">
+                    <nav class="Navition">
+                        <ul class="NavtionLinks">
+                            <li class="header-Links"><a href="index.html">Home</a></li>
+                            <li class="header-Links"><a href="cources.html">Cources</a></li>
+                            <li class="header-Links header-Work-Link"><a href="Tutorials.html">Tutorials</a></li>
+                            <li class="header-Links header-Links-2 Tutorials"><span style="display:flex;">Tutorials<i
+                                        class="totialBtn fa-sharp fa-solid fa-angle-down"></i></span></li>
+                            <li class="header-Links"><a href="blog.html">Projects</a></li>
+                            <li class="header-Links"><a href="notes.html">Notes</a></li>
+                            <li class="header-Links"><a href="contact.html">Contact</a></li>
+                            <li class="header-Links"><a href="workWithUs.html">Work With Us</a></li>
+                        </ul>
+                        <div class="dayNightModeButton">
+                            <button class="changeModeBtn" id="DaynightModeBtn"><i class="fa-solid fa-moon"></i></button>
+                        </div>
+                        <div class="loginBtn">
+                            <a href="login.html"><button type="button" class="btn btn-primary">Login</button></a>
+                        </div>
+                        <div class="signupBtn">
+                            <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal" data-bs-whatever="@mdo">Sign Up</button>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </section>
+        <section class="cource-navbar-container">
+            <div class="homeIcons">
+                <button><a href="index.html"><i class="fa-solid fa-house-chimney"></i></a></button>
+            </div>
+            <div class="courcesLinksMain">
+                <ul class="courcesLinks">
+                    <li class="Links"><a href="html-home.html">HTML</a></li>
+                    <li class="Links"><a href="CSS-home.html">CSS</a></li>
+                    <li class="Links"><a href="">JAVASCRIPT</a></li>
+                    <li class="Links"><a href="">CC++</a></li>
+                    <li class="Links"><a href="">PHP</a></li>
+                    <li class="Links"><a href="">PYTHON</a></li>
+                    <li class="Links"><a href="">REACT JS</a></li>
+                    <li style="margin-right:0;" class="Links"><a href="">DSA</a></li>
+                </ul>
+            </div>
+            <div class="SearchInputsBox">
+                <div class="row">
+                    <form>
+                        <input type="search" name="searchCources" id="input-box" placeholder="Search..." required
+                            autocomplete="off">
+                        <button class="searchBtn" id="InputSearcht"><i
+                                class="fa-solid fa-magnifying-glass"></i></button>
+                    </form>
+                </div>
+                <div class="result-box">
+                </div>
+            </div>
+        </section>
+    </header>
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <button type="button" class="btn-close close-signup"
+                    style="position:absolute;top:0;right:0px;margin:10px;" data-bs-dismiss="modal"
+                    aria-label="Close"></button>
+                <div class="container center" style="display:flex;width:100%;justify-content: center;margin-top:10px;">
+                    <img width="100" style="border-radius:50px;" src="..//Images/WebPage Owner Image.jpg" alt="">
+                </div>
+                <div>
+                    <h4 class="text-center mt-3">&lt;/&gt;Code With Rahul</h4>
+                    <h5 class="text-center" id="exampleModalLabel">Create an account</h5>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="mb-3">
+                            <input type="text" name="username" class="form-control" id="recipient-name1"
+                                placeholder="Username">
+                        </div>
+                        <div class="mb-3">
+                            <input type="password" name="password" class="form-control" id="recipient-name2"
+                                placeholder="Password">
+                        </div>
+                        <div class="mb-3">
+                            <input type="password" name="confirm_password" class="form-control" id="recipient-name3"
+                                placeholder="Confirm Password">
+                        </div>
+                        <button type="submit" class="btn btn-primary">Create an account</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="project-main-container">
+        <div class="project-Sub-Container">
+            <div class="project-heading">
+                <h2 style="font-size:25px;color:#777;margin:5% 1%;">Rahul Recamand Project (25)</h2>
+            </div>
+            <div class="project-flex-container">
+                <div class="project-main">
+                    <div class="project">
+                        <div class="project-details">
+                            <div class="project-date">
+                                <date>23-6-2023</date>
+                            </div>
+                            <h2>3 Ways to Create a Navigation Bar</h2>
+                            <small>Flexbox5 and basic HTML to create 3 different navbar designs. You'll see some examples
+                                of how Flexbox properties like 'align-items', 'justify-content', and 'order' can be used
+                                to quickly spin up new web designs.</small><br><br>
+                            <a style="margin-top:50px;"
+                                href="https://www.youtube.com/watch?v=PwWHL3RyQgk&ab_channel=Skillthrive"  target="_blank"><span>Watch
+                                    Now</span></a>
+                        </div>
+                    </div>
+                    <div class="project">
+                        <div class="project-details">
+                            <div class="project-date">
+                                <date>24-6-2023</date>
+                            </div>
+                            <h2>Animated Banner Section using HTML AND CSS |</h2>
+                            <small>How To Make Image slider With Animation Using HTML And CSS | Website Design With
+                                Animation Step by step Tutorial You must watch</small><br><br>
+                            <a href="https://www.youtube.com/watch?v=PwWHL3RyQgk&ab_channel=Skillthrive" target="_blank"><span>Watch
+                                    Now</span></a>
+                        </div>
+                    </div>
+                    <div class="project">
+                        <div class="project-details">
+                            <div class="project-date">
+                                <date>27-6-2023</date>
+                            </div>
+                            <h2>Image Gallery Using HTML CSS And Vanilla Javascript</h2>
+                            <small>how to make a simple responsive lightbox image gallery using html css and vanilla
+                                javascript | Create a image popup gallery on click using vanilla
+                                javascript.</small><br><br>
+                            <a href="https://www.youtube.com/watch?v=QghhoJBdw7A&ab_channel=Mr.WebDe" target="_blank"><span>Watch
+                                    Now</span></a>
+                        </div>
+                    </div>
+                    <div class="project">
+                        <div class="project-details">
+                            <div class="project-date">
+                                <date>27-6-2023</date>
+                            </div>
+                            <h2>Create a Modal Box using HTML CSS and JavaScript Website</h2>
+                            <small>Flexbox and basic HTML to create 3 different navbar designs. You'll see some examples
+                                of how Flexbox properties like 'align-items', 'justify-content', and 'order' can be used
+                                to quickly spin up new web designs.</small><br><br>
+                            <a href="https://www.youtube.com/watch?v=AF6vGYIyV8M&ab_channel=GreatStack" target="_blank"><span>Watch
+                                    Now</span></a>
+                        </div>
+                    </div>
+                    <div class="project">
+                        <div class="project-details">
+                            <div class="project-date">
+                                <date>28-7-2023</date>
+                            </div>
+                            <h2>Responsive Testimonial Slider in HTML CSS & JavaScript | SwiperJs</h2>
+                            <small>Creat a Animated Responsive Testimonial Slider in HTML using HTML CSS & JavaScript |
+                                SwiperJs | Card Slider You should watch!</small><br><br>
+                            <a href="https://www.youtube.com/watch?v=iIwALoXqJ5c&ab_channel=CodingLab" target="_blank"><span>Watch
+                                    Now</span></a>
+                        </div>
+                    </div>
+                    <div class="project">
+                        <div class="project-details">
+                            <div class="project-date">
+                                <date>29-7-2023</date>
+                            </div>
+                            <h2>Responsive Contact Us Page Design using Html CSS | Web Design</h2>
+                            <small>We're gonna learn how to make an Attractive contact form using only HTML, CSS and
+                                JavaScript. In this form, we're gonna have an awesome input animation, also we're gonna
+                                have some nice geometric shapes.</small><br><br>
+                            <a href="https://www.youtube.com/watch?v=gggB0Nq5vBk&ab_channel=OnlineTutorials" target="_blank"><span>Watch
+                                    Now</span></a>
+                        </div>
+                    </div>
+                    <div class="project">
+                        <div class="project-details">
+                            <div class="project-date">
+                                <date>30-7-2023</date>
+                            </div>
+                            <h2>Create Dynamic Html Cards With JavaScript. | PART - 1 | HINDI</h2>
+                            <small>Make a Dynamic 3D Cards Page using HTML CSS and CSS | Learn more about the card
+                                section. This is may be very useful for you. I hop you will enjoy this
+                                video.</small><br><br>
+                            <a href="https://www.youtube.com/watch?v=Qlnr0ZN4zVc&ab_channel=SurajParik" target="_blank"><span>Watch
+                                    Now</span></a>
+                        </div>
+                    </div>
+                    <div class="project">
+                        <div class="project-details">
+                            <div class="project-date">
+                                <date>1-7-2023</date>
+                            </div>
+                            <h2>How To Make Animated Website Footer Design Using HTML And CSS</h2>
+                            <small>In this video you will learn how to make a website footer using HTML and CSS. We will
+                                add animation in the footer title text and this footer design will be completely
+                                responsive.</small><br><br>
+                            <a href="https://www.youtube.com/watch?v=FRRlFLfdvBE&ab_channel=GreatStack" target="_blank"><span>Watch
+                                    Now</span></a>
+                        </div>
+                    </div>
+                    <div class="project">
+                        <div class="project-details">
+                            <div class="project-date">
+                                <date>1-7-2023</date>
+                            </div>
+                            <h2>Login Form Validation using HTML CSS & Javascript</h2>
+                            <small>Welcome, Join us for a step-by-step guide on building a website with registration and
+                                login using HTML CSS & JavaScript in Hindi. Also, we will host Live with
+                                Hostinger.</small><br><br>
+                            <a href="https://www.youtube.com/watch?v=9zzX2fbkzWU&ab_channel=CodingNepal" target="_blank"><span>Watch
+                                    Now</span></a>
+                        </div>
+                    </div>
+                    <div class="project">
+                        <div class="project-details">
+                            <div class="project-date">
+                                <date>2-7-2023</date>
+                            </div>
+                            <h2>How To Make Form (Multi-Step) Using HTML CSS & JS | Step by Step </h2>
+                            <small>Learn How to create a multi-step form using HTML, CSS and JS. Create HTML And CSS
+                                Form Design Step By Step. You will learn many things from this one vidoe you must
+                                watch!</small><br><br>
+                            <a href="https://www.youtube.com/watch?v=T76bbMVMX6M&ab_channel=GreatStack" target="_blank"><span>Watch
+                                    Now</span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+
+    <div class="footer-container">
+        <div class="footer-subContainer">
+            <div class="footer-box">
+                <div class="footer-Identity">
+                    <div class="footer-identityPart1">
+                        <img src="..//Images/WebPage Owner Image.jpg" alt="Owner of this WebPage Image">
+                        <h4>CodeWithRahul</h4>
+                    </div>
+                    <div class="footer-identityPart2">
+                        <div class="copyright">
+                            Copyright &copy; 2023 CodeWithRahul.com
+                        </div>
+                    </div>
+                </div>
+                <div class="footerMediaIcons">
+                    <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://github.com/rahul3133"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.youtube.com/@user-ts6wj1nt6w/featured"><i class="fa-brands fa-youtube"></i></a>
+                    <a
+                        href="https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwiwiI2uhe__AhUI0ncKHc7uAGIYABAAGgJlZg&ei=r-mgZI2zEur04-EPzfexmAo&ohost=www.google.com&cid=CAESauD2FiAJmre0yW-k4h6Xbp9QZheTBcoQxwXbcjv8eAihGdbmjsacHBfG1zFUh8yyWIr6kq-5OLsLSQiCH7-WS4A9XqqWfiDmffmubwAQWBYv-1wmLhAe9sjQvxA_5rJdLd-XN3kNYgiloSo&sig=AOD64_2LiR2oIRjEvP9jVUI0QTQwst9UNw&q&sqi=2&adurl&ved=2ahUKEwjNxvythe__AhVq-jgGHc17DKMQ0Qx6BAgJEAE"><i
+                            class="fa-brands fa-facebook"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="..//JavaScripts/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

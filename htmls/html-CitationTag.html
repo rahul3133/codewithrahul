@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>&lt;/&gt;CodeWithRahulGoswami | HTML | CITATION TAG</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,700;0,800;1,600;1,700;1,800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="prism.css">
+    <script src="prism.js"></script>
+    <link rel="stylesheet" href="..//css/style.css">
+    <link rel="stylesheet" href="..//css/responsiveness.css">
+    <link rel="icon" href="..//Images/WebPage Owner Image.jpg">
+    <script src="https://unpkg.com/typed.js@2.0.15/dist/typed.umd.js"></script>
+</head>
+
+<body>
+
+    <header class="Heading-Name">
+        <div class="cource-links-Responsive">
+            <span class="cource-Links-ReponsiveChild">back <i class="fa-solid fa-arrow-left"></i></span>
+        </div>
+        <div class="loader_bg">
+            <div class="loader"></div>
+        </div>
+        <div class="loading-progress-bar"></div>
+        <section class="navbar-container">
+            <div class="navbar-subMain">
+                <div class="navbar-heading">
+                    <h3><a href="index.html">CodeWithRahul</a></h3>
+                    <span class="ResponsiveMoreLinks">More <i class="fa-sharp fa-solid fa-angle-down"></i></span>
+                </div>
+                <div class="mainLinks">
+                    <nav class="Navition">
+                        <ul class="NavtionLinks">
+                            <li class="header-Links"><a href="index.html">Home</a></li>
+                            <li class="header-Links"><a href="cources.html">Cources</a></li>
+                            <li class="header-Links header-Work-Link"><a href="Tutorials.html">Tutorials</a></li>
+                            <li class="header-Links header-Links-2 Tutorials"><span style="display:flex;">Tutorials<i
+                                        class="totialBtn fa-sharp fa-solid fa-angle-down"></i></span></li>
+                            <li class="header-Links"><a href="blog.html">Projects</a></li>
+                            <li class="header-Links"><a href="notes.html">Notes</a></li>
+                            <li class="header-Links"><a href="contact.html">Contact</a></li>
+                            <li class="header-Links"><a href="workWithUs.html">Work With Us</a></li>
+                        </ul>
+                        <div class="dayNightModeButton">
+                            <button class="changeModeBtn" id="DaynightModeBtn"><i class="fa-solid fa-moon"></i></button>
+                        </div>
+                        <div class="loginBtn">
+                            <a href="login.html"><button type="button" class="btn btn-primary">Login</button></a>
+                        </div>
+                        <div class="signupBtn">
+                            <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal" data-bs-whatever="@mdo">Sign Up</button>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </section>
+        <section class="cource-navbar-container">
+            <div class="homeIcons">
+                <button><a href="index.html"><i class="fa-solid fa-house-chimney"></i></a></button>
+            </div>
+            <div class="courcesLinksMain">
+                <ul class="courcesLinks">
+                    <li class="Links"><a href="html-home.html">HTML</a></li>
+                    <li class="Links"><a href="CSS-home.html">CSS</a></li>
+                    <li class="Links"><a href="">JAVASCRIPT</a></li>
+                    <li class="Links"><a href="">CC++</a></li>
+                    <li class="Links"><a href="">PHP</a></li>
+                    <li class="Links"><a href="">PYTHON</a></li>
+                    <li class="Links"><a href="">REACT JS</a></li>
+                    <li style="margin-right:0;" class="Links"><a href="">DSA</a></li>
+                </ul>
+            </div>
+            <div class="SearchInputsBox">
+                <div class="row">
+                    <form>
+                        <input type="search" name="searchCources" id="input-box" placeholder="Search..." required
+                            autocomplete="off">
+                        <button class="searchBtn" id="InputSearcht"><i
+                                class="fa-solid fa-magnifying-glass"></i></button>
+                    </form>
+                </div>
+                <div class="result-box">
+                </div>
+            </div>
+        </section>
+    </header>
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <button type="button" class="btn-close close-signup"
+                    style="position:absolute;top:0;right:0px;margin:10px;" data-bs-dismiss="modal"
+                    aria-label="Close"></button>
+                <div class="container center" style="display:flex;width:100%;justify-content: center;margin-top:10px;">
+                    <img width="100" style="border-radius:50px;" src="..//Images/WebPage Owner Image.jpg" alt="">
+                </div>
+                <div>
+                    <h4 class="text-center mt-3">RahulGoswami.com</h4>
+                    <h5 class="text-center" id="exampleModalLabel">Create an account</h5>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="mb-3">
+                            <label for="recipient-name" class="col-form-label">Email Address</label>
+                            <input type="email" class="form-control" id="recipient-name">
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <a href="login.html"><button type="button" class="btn btn-secondary"
+                            data-bs-dismiss="modal">Login</button></a>
+                    <button type="button" class="btn btn-primary">Create an account</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="NavitionBarOrContent-Main-container">
+        <header class="innerNavitionWithManage">
+            <div class="inner-navitiom" id="Inner-Navition">
+                <nav class="navitoin-main">
+                    <nav class="naviition-inner-main">
+                        <li class="link-heading-li">INTRODUCTION</li>
+                        <ul class="innerNavLinks">
+                            <a href="html-home.html">
+                                <li>HTML Introduction</li>
+                            </a>
+                            <a href="html-working.html">
+                                <li>HTML Working</li>
+                            </a>
+                            <a href="html-Prerequisite.html">
+                                <li>HTML Prerequisite</li>
+                            </a>
+                            <a href="html-Document.html">
+                                <li>HTML Document</li>
+                            </a>
+                            <a href="html-Document.html">
+                                <li>HTML Structure 1</li>
+                            </a>
+                            <a href="html-structure1.html">
+                                <li>HTML Page</li>
+                            </a>
+                            <a href="html-structure1.html">
+                                <li>HTML Structure 2</li>
+                            </a>
+                            <a href="html-editor.html">
+                                <li>HTML Editor</li>
+                            </a>
+                            <a href="html-ViewSource.html">
+                                <li>HTML View Source</li>
+                            </a>
+                            <a href="html-basicTag.html">
+                                <li>HTML Tags</li>
+                            </a>
+                            <a href="html-element.html">
+                                <li>HTML Element</li>
+                            </a>
+                            <a href="html-VsCode.html">
+                                <li>VS Code</li>
+                            </a>
+                            <a href="html-VsCode.html">
+                                <li>installation</li>
+                            </a>
+                        </ul>
+                    </nav>
+                    <nav class="naviition-inner-main">
+                        <li class="link-heading-li">HTML BASIC TAGS</li>
+                        <ul class="innerNavLinks">
+                            <a href="html-skeletal-tags.html">
+                                <li>Skeletal Tags</li>
+                            </a>
+                            <a href="html-headingTag.html">
+                                <li>Heading Tags</li>
+                            </a>
+                            <a href="html-paragraph.html">
+                                <li>Paragraph Tag</li>
+                            </a>
+                            <a href="html-HorizontelLine.html">
+                                <li>Horizontal Line Tag</li>
+                            </a>
+                            <a href="html-LineBreak.html">
+                                <li>Line Break Tag</li>
+                            </a>
+                            <a href="html-CenterTag.html">
+                                <li>Center Tag</li>
+                            </a>
+                            <a href="html-Preserve.html">
+                                <li>Preserve</li>
+                            </a>
+                            <a href="html-Preserve.html">
+                                <li>Formatting Tag</li>
+                            </a>
+                        </ul>
+                    </nav>
+                    <nav class="naviition-inner-main">
+                        <li class="link-heading-li">HTML FORMATTING TAGS</li>
+                        <ul class="innerNavLinks">
+                            <a href="html-MonospacedFont.html">
+                                <li>Monospaced Font</li>
+                            </a>
+                            <a href="html-TextAbbreviation.html">
+                                <li>Text Abbreviation Tag</li>
+                            </a>
+                            <a href="html-AcronymTag.html">
+                                <li>Acronym Tag</li>
+                            </a>
+                            <a href="html-TextTag.html">
+                                <li>Text tags</li>
+                            </a>
+                        </ul>
+                    </nav>
+                    <nav class="naviition-inner-main">
+                        <li class="link-heading-li">HTML QUOTATIONS</li>
+                        <ul class="innerNavLinks">
+                            <a href="html-BlockquoteTag.html">
+                                <li>Blockquote Tag</li>
+                            </a>
+                            <a href="html-QuoteTag.html">
+                                <li>Quote Tag</li>
+                            </a>
+                            <a class="Link_active_Class" href="html-CitationTag.html">
+                                <li>Text Citation Tag</li>
+                            </a>
+                            <a href="html-TextDirection.html">
+                                <li>Text Direction Tag</li>
+                            </a>
+                            <a href="html-AddressText.html">
+                                <li>Address Text Tag</li>
+                            </a>
+                            <a href="htmlCodeTag.html">
+                                <li>Code Tag</li>
+                            </a>
+                        </ul>
+                    </nav>
+                    <nav class="naviition-inner-main">
+                        <li class="link-heading-li">HTML ATTRIBUTES</li>
+                        <ul class="innerNavLinks">
+                            <a href="html-AttributionIntroduction.html">
+                                <li>HTML Attributes</li>
+                            </a>
+                            <a href="html-CoreAttribtion.html">
+                                <li>HTML Core</li>
+                            </a>
+                            <a href="html-CoreAttribtion.html">
+                                <li>Attributes 1</li>
+                            </a>
+                            <a href="htmlBasicInformationAttribtu.html">
+                                <li>Attributes 2</li>
+                            </a>
+                            <a href="html-GenericAttributes.html">
+                                <li>HTML Generic</li>
+                            </a>
+                        </ul>
+                    </nav>
+                    <nav class="naviition-inner-main">
+                        <li class="link-heading-li">HTML LINKS</li>
+                        <ul class="innerNavLinks">
+                            <a href="html-LinkTag.html">
+                                <li>HTML Links</li>
+                            </a>
+                        </ul>
+                    </nav>
+                    <nav class="naviition-inner-main">
+                        <li class="link-heading-li">HTML COMMENTS</li>
+                        <ul class="innerNavLinks">
+                            <a href="html-Comment.html">
+                                <li>HTML Comments</li>
+                            </a>
+                        </ul>
+                    </nav>
+                    <nav class="naviition-inner-main">
+                        <li class="link-heading-li">HTML IMAGES</li>
+                        <ul class="innerNavLinks">
+                            <a href="html-ImageTag.html">
+                                <li>HTML Images</li>
+                            </a>
+                        </ul>
+                    </nav>
+                    <nav class="naviition-inner-main">
+                        <li class="link-heading-li">HTML LISTS</li>
+                        <ul class="innerNavLinks">
+                            <a href="htmlAllListInro.html">
+                                <li>HTML Lists</li>
+                            </a>
+                            <a href="HTML Unordered List.html">
+                                <li>HTML Unordered List</li>
+                            </a>
+                            <a href="HTML ordered List.html">
+                                <li>HTML Ordered List</li>
+                            </a>
+                            <a href="HTML-defintionList.html">
+                                <li>HTML Definition List</li>
+                            </a>
+                        </ul>
+                    </nav>
+                    <nav class="naviition-inner-main">
+                        <li class="link-heading-li">HTML TABLES</li>
+                        <ul class="innerNavLinks">
+                            <a href="html-TableTag.html">
+                                <li>HTML Tables</li>
+                            </a>
+                        </ul>
+                    </nav>
+                    <nav class="naviition-inner-main">
+                        <li class="link-heading-li">HTML BLOCK ELEMENT</li>
+                        <ul class="innerNavLinks">
+                            <a href="htmlBlockTags.html">
+                                <li>HTML Block</li>
+                            </a>
+                            <a href="htmlBlockTags.html">
+                                <li>Elements</li>
+                            </a>
+                        </ul>
+                    </nav>
+                    <nav class="naviition-inner-main">
+                        <li class="link-heading-li">HTML INLINE ELEMENT</li>
+                        <ul class="innerNavLinks">
+                            <a href="HTML-InlineElementTag.html">
+                                <li>HTML Inline</li>
+                            </a>
+                            <a href="HTML-InlineElementTag.html">
+                                <li>Elements</li>
+                            </a>
+                        </ul>
+                    </nav>
+                    <nav class="naviition-inner-main">
+                        <li class="link-heading-li">HTML FORMS</li>
+                        <ul class="innerNavLinks">
+                            <a href="html-FormIntroduction.html">
+                                <li>FORM Introduction</li>
+                            </a>
+                            <a href="html-MoreForm.html">
+                                <li>More on forms</li>
+                            </a>
+                        </ul>
+                    </nav>
+                </nav>
+            </div>
+        </header>
+        <div class="body-matter">
+            <div class="htmlIntro-container">
+                <div class="preVeNextSwitchBtn">
+                    <div class="proVenextflexsec">
+                        <a href="html-QuoteTag.html"><button type="button"
+                                class="btn btn-primary previousButton">Previous</button></a>
+                        <div class="buttonshowIcon">
+                            <a href="html-TextDirection.html"><button type="button"
+                                    class="btn btn-primary Next">Next</button></a>
+                            <div class="showInnerNavbar">
+                                <span><i class="fa-solid fa-bars" id="InnerNavBarShow" name="InnerBars"></i></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="htmlBasicElement">
+                    <div class="introductionheading">
+                        <h1>Text Citation Tag</h1>
+                        <p>To provide a reference or creative workbook, use the <span
+                                class="htmlBasicCheatSheetContent">&lt;cite&gt;</span> tag on your HTML page.</p>
+                    </div>
+                </div>
+                <div class="htmlBasicElement">
+                    <div class="CloseFullImageSizeButton">
+                        <i style="display:none;" class="HimCloseFullImageSizeButton fa-solid fa-xmark"></i>
+                    </div>
+                    <div class="HTMLIntroanalogy ">
+                        <div class="analogyImage" style="padding:10%;padding-bottom:0;padding-top:0;">
+                            <img src="..//Images/htmlCiteTag.png" alt="Cite Tag"></img>
+                        </div>
+                    </div>
+                </div>
+                <div class="htmlBasicElement">
+                    <div class="BeforeCheatSheetHeading">
+                        <span class="HtmlBoldText"><span class="htmlBasicCheatSheetContent">&lt;cite&gt;</span>
+                            tag: “used to provide a reference or defines the title of a creative work on an HTML
+                            page”</span>
+                        <p class="htmlBasicCheatSheetContent">Syntax:</p>
+                    </div>
+                    <div class="CheckSheetDashboard">
+                        <pre class="language-html"><code>&lt;cite&gt;
+// content
+&lt;/cite&gt;</code></pre>
+                    </div>
+                </div>
+                <div class="htmlNote" style="margin-top:3%;">
+                    <p> Using this <span class="htmlBasicCheatSheetContent">&lt;cite&gt;</span> tag we can provide a
+                        reference or title for creative work on the HTML page.
+                        <span class="htmlBasicCheatSheetContent">&lt;cite&gt;</span> tag also has its corresponding
+                        &l<span class="htmlBasicCheatSheetContent">t;/cite&gt;</span> tag. By default content between
+                        this tag is shown in italic.
+                    </p>
+                </div>
+
+                <div class="htmlBasicElement" style="margin-top:5%;">
+                    <div class="introductionheading">
+                        <p class="HtmlBoldText">Refer to the video to understand clearly:
+                    </div>
+                    <div class="CloseFullImageSizeButton">
+                        <i style="display:none;" class="HimCloseFullImageSizeButton fa-solid fa-xmark"></i>
+                    </div>
+                    <div class="HTMLIntroanalogy">
+                        <div class="analogyImage analogyVideo">
+                            <video src="..//Videos/htmlCiteTagLIkeItalicTag.mp4" loop autoplay muted></video>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="preVeNextSwitchBtn" style="margin-top:10%;">
+                    <div class="proVenextflexsec">
+                        <a href="html-QuoteTag.html"><button type="button"
+                                class="btn btn-primary previousButton">Previous</button></a>
+                        <a href="html-TextDirection.html"><button type="button"
+                                class="btn btn-primary Next">Next</button></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-container">
+                <div class="footer-subContainer">
+                    <div class="footer-box">
+                        <div class="footer-Identity">
+                            <div class="footer-identityPart1">
+                                <img src="..//Images/WebPage Owner Image.jpg" alt="Owner of this WebPage Image">
+                                <h4>CodeWithRahul</h4>
+                            </div>
+                            <div class="footer-identityPart2">
+                                <div class="copyright">
+                                    Copyright &copy; 2023 CodeWithRahul.com
+                                </div>
+                            </div>
+                        </div>
+                        <div class="footerMediaIcons">
+                            <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="https://github.com/rahul3133"><i class="fa-brands fa-github"></i></a>
+                            <a href="https://www.youtube.com/@user-ts6wj1nt6w/featured"><i
+                                    class="fa-brands fa-youtube"></i></a>
+                            <a
+                                href="https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwiwiI2uhe__AhUI0ncKHc7uAGIYABAAGgJlZg&ei=r-mgZI2zEur04-EPzfexmAo&ohost=www.google.com&cid=CAESauD2FiAJmre0yW-k4h6Xbp9QZheTBcoQxwXbcjv8eAihGdbmjsacHBfG1zFUh8yyWIr6kq-5OLsLSQiCH7-WS4A9XqqWfiDmffmubwAQWBYv-1wmLhAe9sjQvxA_5rJdLd-XN3kNYgiloSo&sig=AOD64_2LiR2oIRjEvP9jVUI0QTQwst9UNw&q&sqi=2&adurl&ved=2ahUKEwjNxvythe__AhVq-jgGHc17DKMQ0Qx6BAgJEAE"><i
+                                    class="fa-brands fa-facebook"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="..//JavaScripts/script.js"></script>
+    <script src="..//JavaScripts/Tutorials_Navbar.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

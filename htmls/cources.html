@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>&lt;/&gt;CodeWithRahulGoswami | COURCES</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,700;0,800;1,600;1,700;1,800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="..//css/style.css">
+    <link rel="stylesheet" href="..//css/responsiveness.css">
+    <link rel="icon" href="..//Images/WebPage Owner Image.jpg">
+    <script src="https://unpkg.com/typed.js@2.0.15/dist/typed.umd.js"></script>
+</head>
+
+<body>
+
+    <header class="Heading-Name">
+        <div class="cource-links-Responsive">
+            <span class="cource-Links-ReponsiveChild">back <i class="fa-solid fa-arrow-left"></i></span>
+        </div>
+        <div class="loader_bg">
+            <div class="loader"></div>
+        </div>
+        <div class="loading-progress-bar"></div>
+        <section class="navbar-container">
+            <div class="navbar-subMain">
+                <div class="navbar-heading">
+                    <h3><a href="index.html">CodeWithRahul</a></h3>
+                    <span class="ResponsiveMoreLinks">More <i class="fa-sharp fa-solid fa-angle-down"></i></span>
+                </div>
+                <div class="mainLinks">
+                    <nav class="Navition">
+                        <ul class="NavtionLinks">
+                            <li class="header-Links"><a href="index.html">Home</a></li>
+                            <li class="header-Links"><a href="cources.html">Cources</a></li>
+                            <li class="header-Links header-Work-Link"><a href="Tutorials.html">Tutorials</a></li>
+                            <li class="header-Links header-Links-2 Tutorials"><span style="display:flex;">Tutorials<i
+                                        class="totialBtn fa-sharp fa-solid fa-angle-down"></i></span></li>
+                            <li class="header-Links"><a href="blog.html">Projects</a></li>
+                            <li class="header-Links"><a href="notes.html">Notes</a></li>
+                            <li class="header-Links"><a href="contact.html">Contact</a></li>
+                            <li class="header-Links"><a href="workWithUs.html">Work With Us</a></li>
+                        </ul>
+                        <div class="dayNightModeButton">
+                            <button class="changeModeBtn" id="DaynightModeBtn"><i class="fa-solid fa-moon"></i></button>
+                        </div>
+                        <div class="loginBtn">
+                            <a href="login.html"><button type="button" class="btn btn-primary">Login</button></a>
+                        </div>
+                        <div class="signupBtn">
+                            <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal" data-bs-whatever="@mdo">Sign Up</button>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </section>
+        <section class="cource-navbar-container">
+            <div class="homeIcons">
+                <button><a href="index.html"><i class="fa-solid fa-house-chimney"></i></a></button>
+            </div>
+            <div class="courcesLinksMain">
+                <ul class="courcesLinks">
+                    <li class="Links"><a href="html-home.html">HTML</a></li>
+                    <li class="Links"><a href="CSS-home.html">CSS</a></li>
+                    <li class="Links"><a href="">JAVASCRIPT</a></li>
+                    <li class="Links"><a href="">CC++</a></li>
+                    <li class="Links"><a href="">PHP</a></li>
+                    <li class="Links"><a href="">PYTHON</a></li>
+                    <li class="Links"><a href="">REACT JS</a></li>
+                    <li style="margin-right:0;" class="Links"><a href="">DSA</a></li>
+                </ul>
+            </div>
+            <div class="SearchInputsBox">
+                <div class="row">
+                    <form>
+                        <input type="search" name="searchCources" id="input-box" placeholder="Search..." required
+                            autocomplete="off">
+                        <button class="searchBtn" id="InputSearcht"><i
+                                class="fa-solid fa-magnifying-glass"></i></button>
+                    </form>
+                </div>
+                <div class="result-box">
+                </div>
+            </div>
+        </section>
+    </header>
+
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <button type="button" class="btn-close close-signup"
+                    style="position:absolute;top:0;right:0px;margin:10px;" data-bs-dismiss="modal"
+                    aria-label="Close"></button>
+                <div class="container center" style="display:flex;width:100%;justify-content: center;margin-top:10px;">
+                    <img width="100" style="border-radius:50px;" src="..//Images/WebPage Owner Image.jpg" alt="">
+                </div>
+                <div>
+                    <h4 class="text-center mt-3">&lt;/&gt;Code With Rahul</h4>
+                    <h5 class="text-center" id="exampleModalLabel">Create an account</h5>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="mb-3">
+                            <input type="text" name="username" class="form-control" id="recipient-name1"
+                                placeholder="Username">
+                        </div>
+                        <div class="mb-3">
+                            <input type="password" name="password" class="form-control" id="recipient-name2"
+                                placeholder="Password">
+                        </div>
+                        <div class="mb-3">
+                            <input type="password" name="confirm_password" class="form-control" id="recipient-name3"
+                                placeholder="Confirm Password">
+                        </div>
+                        <button type="submit" class="btn btn-primary">Create an account</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="recomendendCources-container">
+        <div class="recommendedCource-heading top-low-margin">
+            <div class="text-center">
+                <h2 class="courcePremiumHeading">Premium Cources</h2>
+            </div>
+        </div>
+        <div class="recomendendCources-SubContainer">
+            <div class="card" style="width: 18rem;margin-top:0;">
+                <img src="..//Images/hq720 (1).webp" class="card-img-top" alt="The Ultimate Tailwind CSS Cources Image">
+                <div class="card-body">
+                    <div>
+                        <p class="card-head-title">FREE COURCE</p>
+                        <h5 class="card-title">Tailwind Course In Hindi</h5>
+                        <p class="card-text">Complete Tailwind CSS Course by CodeWithHarry in Hindi - Learn Tailwind CSS
+                            from scratch for free!</p>
+                    </div>
+                    <div>
+                        <a href="https://www.youtube.com/watch?v=ft30zcMlFao&ab_channel=freeCodeCamp.org"
+                            target="_blank" class="btn btn-primary">Start Watching</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="..//Images/hq720 (2).webp" class="card-img-top" alt="The Ultimate C Cources Image">
+                <div class="card-body">
+                    <div>
+                        <p class="card-head-title">FREE COURCE</p>
+                        <h5 class="card-title">C Language Tutorials For Beginners</h5>
+                        <p class="card-text">Even if you don't know the ABC of coding, start this course, and I can
+                            assure you that you'll be an intermediate-level coder after completion. Get started with C
+                            language.</p>
+                    </div>
+                    <div>
+                        <a href="https://www.youtube.com/watch?v=irqbmMNs2Bo&ab_channel=ApnaCollege" target="_blank"
+                            class="btn btn-primary">Start Watching</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="..//Images/hqdefault (4).jpg" class="card-img-top" alt="The Ultimate DSA Cources Image">
+                <div class="card-body">
+                    <div>
+                        <p class="card-head-title">FREE COURCE</p>
+                        <h5 class="card-title">Data Structures and Algorithms Course</h5>
+                        <p class="card-text">Data Structure and Algorithm is one of the most crucial things to learn.
+                            This course will give you a complete understanding of Data Structure and its implementation.
+                        </p>
+                    </div>
+                    <div>
+                        <a href="https://www.youtube.com/watch?v=5_5oE5lgrhw&list=PLu0W_9lII9ahIappRPN0MCAgtOu3lQjQi&ab_channel=CodeWithHarry"
+                            target="_blank" class="btn btn-primary">Start Watching</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="recomendendCources-SubContainer cource-margin">
+            <div class="card" style="width: 18rem;margin-top:0;">
+                <img src="..//Images/hqdefault.jpg" class="card-img-top" alt="The Ultimate Python Cources Image">
+                <div class="card-body">
+                    <div>
+                        <p class="card-head-title">FREE COURCE</p>
+                        <h5 class="card-title">Python Playlist - 113 Videos</h5>
+                        <p class="card-text">Python is one of the most demanded programming languages in the job market.
+                            Surprisingly, it is equally easy to learn and master Python. Let's commit our 100 days of
+                            code to python!</p>
+                    </div>
+                    <div>
+                        <a href="https://www.youtube.com/watch?v=QXeEoD0pB3E&list=PLsyeobzWxl7poL9JTVyndKe62ieoN-MZ3&ab_channel=Telusko"
+                            target="_blank" class="btn btn-primary">Start Watching</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="..//Images/hq720.webp" class="card-img-top" alt="The Ultimate JavaScript Cources Image">
+                <div class="card-body">
+                    <div>
+                        <p class="card-head-title">FREE COURCE</p>
+                        <h5 class="card-title">One Video JavaScript Course</h5>
+                        <p class="card-text">This latest JavaScript course comes with premium curriculum that covers
+                            everything from basics to advance. On top of that, you will get my handwritten notes of JS
+                            for completely free. What are you waiting for?</p>
+                    </div>
+                    <div>
+                        <a href="https://www.youtube.com/watch?v=SBmSRK3feww&ab_channel=SuperSimpleDev" target="_blank"
+                            class="btn btn-primary">Start Watching</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="..//Images/090fefe24d23d47584f6ddc7eb5a241e.webp" class="card-img-top"
+                    alt="The Ultimate ReactJs Cources Image">
+                <div class="card-body">
+                    <div>
+                        <p class="card-head-title">FREE COURCE</p>
+                        <h5 class="card-title">React JS Tutorials For Beginners</h5>
+                        <p class="card-text">React is a free and open-source front-end JavaScript library. This series
+                            will cover React from starting to the end. We will learn react from the ground up!</p>
+                    </div>
+                    <div>
+                        <a href="https://www.youtube.com/watch?v=-mJFZp84TIY&list=PLu0W_9lII9agx66oZnT6IyhcMIbUMNMdt&ab_channel=CodeWithHarry"
+                            target="_blank" class="btn btn-primary">Start Watching</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="recomendendCources-SubContainer cource-margin justifyCcenter-Content">
+            <div class="card marginrightContent" style="width: 18rem;margin-top:0;">
+                <img src="..//Images/hqdefault (1).jpg" class="card-img-top" alt="The Ultimate PHP Cources Image">
+                <div class="card-body ">
+                    <div>
+                        <p class="card-head-title">FREE COURCE</p>
+                        <h5 class="card-title">PHP Tutorials For Beginners</h5>
+                        <p class="card-text">PHP is a general-purpose scripting language geared towards web development.
+                            This course will give you a complete and proper understanding of PHP concepts.</p>
+                    </div>
+                    <div>
+                        <a href="https://www.youtube.com/watch?v=a_qREkJ78f4&list=PL0b6OzIxLPbyrzCMJOFzLnf_-_5E_dkzs&ab_channel=YahooBaba"
+                            target="_blank" class="btn btn-primary">Start Watching</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card extra-margin-cources" style="width: 18rem;margin-top:0;">
+                <img src="..//Images/hqdefault (6).jpg" class="card-img-top" alt="The Ultimate HTML Cources Image">
+                <div class="card-body">
+                    <div>
+                        <p class="card-head-title">FREE COURCE</p>
+                        <h5 class="card-title">Learn HTML beginners Playlist - 22</h5>
+                        <p class="card-text">HTML is the standard markup language for documents designed to be displayed
+                            in a web browser.</p>
+                    </div>
+                    <div>
+                        <a href="https://www.youtube.com/watch?v=GpcMasRWUhI&list=PL0b6OzIxLPbxStBQ21C2toa5uQMqHEoRT&ab_channel=YahooBaba"
+                            target="_blank" class="btn btn-primary">Start Watching</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="recomendendCources-container">
+        <div class="recommendedCource-heading top-low-margin">
+            <div class="text-center">
+                <h2 class="courcePremiumHeading">More Cources</h2>
+            </div>
+        </div>
+        <div class="recomendendCources-SubContainer">
+            <div class="card" style="width: 18rem;margin-top:0;">
+                <img src="..//Images/hq720 (3).webp" class="card-img-top" alt="The Ultimate C++ Cources Image">
+                <div class="card-body">
+                    <div>
+                        <p class="card-head-title">FREE COURCE</p>
+                        <h5 class="card-title">Learn Comple C++ in 31 hours</h5>
+                        <p class="card-text">A great first step is to simply use C++ as “a better C,” which means that
+                            you can program in the C subset of C++ and find the experience better than in C.</p>
+                    </div>
+                    <div>
+                        <a href="https://www.youtube.com/watch?v=8jLOx1hD3_o&ab_channel=freeCodeCamp.org"
+                            target="_blank" class="btn btn-primary">Start Watching</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="..//Images/hqdefault (3).jpg" class="card-img-top" alt="The Machine Learning Cources Image">
+                <div class="card-body">
+                    <div>
+                        <p class="card-head-title">FREE COURCE</p>
+                        <h5 class="card-title">Learn Machine Learning in One Video</h5>
+                        <p class="card-text">Machine learning is a branch of artificial intelligence (AI) and computer
+                            science which focuses on the use of data and algorithms to imitate the way that humans
+                            learn.</p>
+                    </div>
+                    <div>
+                        <a href="https://www.youtube.com/watch?v=gmvvaobm7eQ&list=PLeo1K3hjS3uvCeTYTeyfe0-rN5r8zn9rw&ab_channel=codebasics"
+                            target="_blank" class="btn btn-primary">Start Watching</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="..//Images/hq720 (5).webp" class="card-img-top"
+                    alt="The Ultimate Android Studio Cources Image">
+                <div class="card-body">
+                    <div>
+                        <p class="card-head-title">FREE COURCE</p>
+                        <h5 class="card-title">Playlist - most demond Android Studio</h5>
+                        <p class="card-text">Whether a new developer, just new to Android, or an experienced
+                            professional, grow your skills with training created by Google's Android development
+                            experts.</p>
+                    </div>
+                    <div>
+                        <a href="https://www.youtube.com/watch?v=mXjZQX3UzOs&ab_channel=CodeWithHarry" target="_blank"
+                            class="btn btn-primary">Start Watching</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="recomendendCources-SubContainer cource-margin">
+            <div class="card" style="width: 18rem;margin-top:0;">
+                <img src="..//Images/hq720 (4).webp" class="card-img-top" alt="The Ultimate Java Cources Image">
+                <div class="card-body">
+                    <div>
+                        <p class="card-head-title">FREE COURCE</p>
+                        <h5 class="card-title">Java Tutorials For Beginners</h5>
+                        <p class="card-text">If you don't know programming and want to start your career by learning
+                            Java as your first language, you can start with this course as it is for absolute beginners.
+                        </p>
+                    </div>
+                    <div>
+                        <a href="https://www.youtube.com/watch?v=UmnCZ7-9yDY&ab_channel=ApnaCollege" target="_blank"
+                            class="btn btn-primary">Start Watching</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="..//Images/hqdefault (5).jpg" class="card-img-top"
+                    alt="The Ultimate JavaScript (Angular) Cources Image">
+                <div class="card-body">
+                    <div>
+                        <p class="card-head-title">FREE COURCE</p>
+                        <h5 class="card-title">Learn Part of JavaScript (Angular)</h5>
+                        <p class="card-text">Machine learning is a branch of artificial intelligence (AI) and computer
+                            science which focuses on the use of data and algorithms to imitate the way that humans
+                            learn.</p>
+                    </div>
+                    <div>
+                        <a href="https://www.youtube.com/watch?v=zKkUN-mJtPQ&list=PL6n9fhu94yhWKHkcL7RJmmXyxkuFB3KSl&ab_channel=kudvenkat"
+                            target="_blank" class="btn btn-primary">Start Watching</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="..//Images/hq720 (6).webp" class="card-img-top" alt="The Ultimate (CSS) Cources Image">
+                <div class="card-body">
+                    <div>
+                        <p class="card-head-title">FREE COURCE</p>
+                        <h5 class="card-title">Learn CSS Tutorails in One Video</h5>
+                        <p class="card-text">(CSS) is a style sheet language used for describing the presentation of a
+                            document written in a markup language such as HTML or XML.</p>
+                    </div>
+                    <div>
+                        <a href="https://www.youtube.com/watch?v=OXGznpKZ_sA&ab_channel=freeCodeCamp.org"
+                            target="_blank" class="btn btn-primary">Start Watching</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer-container">
+        <div class="footer-subContainer">
+            <div class="footer-box">
+                <div class="footer-Identity">
+                    <div class="footer-identityPart1">
+                        <img src="..//Images/WebPage Owner Image.jpg" alt="Owner of this WebPage Image">
+                        <h4>CodeWithRahul</h4>
+                    </div>
+                    <div class="footer-identityPart2">
+                        <div class="copyright">
+                            Copyright &copy; 2023 CodeWithRahul.com
+                        </div>
+                    </div>
+                </div>
+                <div class="footerMediaIcons">
+                    <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://github.com/rahul3133"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.youtube.com/@user-ts6wj1nt6w/featured"><i class="fa-brands fa-youtube"></i></a>
+                    <a
+                        href="https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwiwiI2uhe__AhUI0ncKHc7uAGIYABAAGgJlZg&ei=r-mgZI2zEur04-EPzfexmAo&ohost=www.google.com&cid=CAESauD2FiAJmre0yW-k4h6Xbp9QZheTBcoQxwXbcjv8eAihGdbmjsacHBfG1zFUh8yyWIr6kq-5OLsLSQiCH7-WS4A9XqqWfiDmffmubwAQWBYv-1wmLhAe9sjQvxA_5rJdLd-XN3kNYgiloSo&sig=AOD64_2LiR2oIRjEvP9jVUI0QTQwst9UNw&q&sqi=2&adurl&ved=2ahUKEwjNxvythe__AhVq-jgGHc17DKMQ0Qx6BAgJEAE"><i
+                            class="fa-brands fa-facebook"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="..//JavaScripts/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
